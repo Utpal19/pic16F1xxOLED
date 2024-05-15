@@ -1,0 +1,504 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18877 ]
+[d frameptr 6 ]
+"1 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"7 D:\study\PIC16f18877\picI2C_OLED.X\i2c_2.c
+[v _setup setup `(v  1 e 1 0 ]
+"28
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+"41
+[v _I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+"46
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+"51
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+"55
+[v _I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+"64 D:\study\PIC16f18877\picI2C_OLED.X\main.c
+[v _main main `(i  1 e 2 0 ]
+"207
+[v _test_draw_lines test_draw_lines `(v  1 e 1 0 ]
+"226
+[v _test_draw_v_h_lines test_draw_v_h_lines `(v  1 e 1 0 ]
+"250
+[v _test_draw_rectangles test_draw_rectangles `(v  1 e 1 0 ]
+"272
+[v _test_draw_circles test_draw_circles `(v  1 e 1 0 ]
+"286
+[v _test_text_display test_text_display `(v  1 e 1 0 ]
+"312
+[v _test_images test_images `(v  1 e 1 0 ]
+"332 D:\study\PIC16f18877\picI2C_OLED.X\OLED.c
+[v _OLED_Init OLED_Init `(v  1 e 1 0 ]
+"389
+[v _OLED_Width OLED_Width `(uc  1 e 1 0 ]
+"400
+[v _OLED_Height OLED_Height `(uc  1 e 1 0 ]
+"410
+[v _OLED_SetFont OLED_SetFont `(v  1 e 1 0 ]
+"442
+[v _OLED_Update OLED_Update `(v  1 e 1 0 ]
+"495
+[v _OLED_ClearDisplay OLED_ClearDisplay `(v  1 e 1 0 ]
+"505
+[v _OLED_FillDisplay OLED_FillDisplay `(v  1 e 1 0 ]
+"516
+[v _OLED_InvertDisplay OLED_InvertDisplay `(v  1 e 1 0 ]
+"536
+[v _OLED_DrawPixel OLED_DrawPixel `(v  1 e 1 0 ]
+"564
+[v _OLED_Line OLED_Line `(v  1 e 1 0 ]
+"638
+[v _OLED_V_Line OLED_V_Line `(v  1 e 1 0 ]
+"666
+[v _OLED_H_Line OLED_H_Line `(v  1 e 1 0 ]
+"698
+[v _OLED_Rectangle OLED_Rectangle `(v  1 e 1 0 ]
+"759
+[v _OLED_Image OLED_Image `(v  1 e 1 0 ]
+"780
+[v _OLED_Circle OLED_Circle `(v  1 e 1 0 ]
+"825
+[v _OLED_Write OLED_Write `(v  1 e 1 0 ]
+"908
+[v _OLED_Write_Text OLED_Write_Text `(v  1 e 1 0 ]
+"928
+[v _ssd1306_command ssd1306_command `(v  1 s 1 ssd1306_command ]
+"958
+[v _width width `(uc  1 s 1 width ]
+"968
+[v _height height `(uc  1 s 1 height ]
+[s S356 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"755 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC16F1xxxx_DFP/1.24.387/xc8\pic\include\proc\pic16f18877.h
+[u S365 . 1 `S356 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES365  1 e 1 @18 ]
+"1018
+[v _LATB LATB `VEuc  1 e 1 @23 ]
+"5541
+[v _SSP2BUF SSP2BUF `VEuc  1 e 1 @406 ]
+"5561
+[v _SSP2ADD SSP2ADD `VEuc  1 e 1 @407 ]
+"5751
+[v _SSP2STAT SSP2STAT `VEuc  1 e 1 @409 ]
+"6115
+[v _SSP2CON1 SSP2CON1 `VEuc  1 e 1 @410 ]
+"6235
+[v _SSP2CON2 SSP2CON2 `VEuc  1 e 1 @411 ]
+[s S397 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"6282
+[s S406 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK 1 0 :5:1 
+]
+[s S409 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S416 . 1 `uc 1 SEN2 1 0 :1:0 
+`uc 1 ADMSK12 1 0 :1:1 
+`uc 1 ADMSK22 1 0 :1:2 
+`uc 1 ADMSK32 1 0 :1:3 
+`uc 1 ACKEN2 1 0 :1:4 
+`uc 1 ACKDT2 1 0 :1:5 
+`uc 1 ACKSTAT2 1 0 :1:6 
+`uc 1 GCEN2 1 0 :1:7 
+]
+[s S425 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN2 1 0 :1:1 
+`uc 1 PEN2 1 0 :1:2 
+`uc 1 RCEN2 1 0 :1:3 
+`uc 1 ADMSK42 1 0 :1:4 
+`uc 1 ADMSK52 1 0 :1:5 
+]
+[u S432 . 1 `S397 1 . 1 0 `S406 1 . 1 0 `S409 1 . 1 0 `S416 1 . 1 0 `S425 1 . 1 0 ]
+[v _SSP2CON2bits SSP2CON2bits `VES432  1 e 1 @411 ]
+"23431
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"23777
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"31472
+[v _SSP2CLKPPS SSP2CLKPPS `VEuc  1 e 1 @7880 ]
+"31524
+[v _SSP2DATPPS SSP2DATPPS `VEuc  1 e 1 @7881 ]
+"32182
+[v _RB1PPS RB1PPS `VEuc  1 e 1 @7961 ]
+"32232
+[v _RB2PPS RB2PPS `VEuc  1 e 1 @7962 ]
+"34102
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+"19 D:\study\PIC16f18877\picI2C_OLED.X\main.c
+[v _bank bank `DC[1024]uc  1 e 1024 0 ]
+"30
+[v _house house `DC[1024]uc  1 e 1024 0 ]
+"11 D:\study\PIC16f18877\picI2C_OLED.X\OLED.c
+[v _SMALL_FONTS SMALL_FONTS `DC[574]uc  1 e 574 0 ]
+"116
+[v _TINY_FONTS TINY_FONTS `DC[289]uc  1 e 289 0 ]
+[s S178 _Current_Font_s 7 `*.25DCuc 1 font 2 0 `uc 1 x_size 1 2 `uc 1 y_size 1 3 `uc 1 offset 1 4 `uc 1 numchars 1 5 `uc 1 inverted 1 6 ]
+"238
+[v _cfont cfont `S178  1 s 7 cfont ]
+"240
+[v _buffer buffer `[1024]uc  1 s 1024 buffer ]
+"64 D:\study\PIC16f18877\picI2C_OLED.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"120
+} 0
+"286
+[v _test_text_display test_text_display `(v  1 e 1 0 ]
+{
+"306
+} 0
+"908 D:\study\PIC16f18877\picI2C_OLED.X\OLED.c
+[v _OLED_Write_Text OLED_Write_Text `(v  1 e 1 0 ]
+{
+"911
+[v OLED_Write_Text@length length `uc  1 a 1 63 ]
+"910
+[v OLED_Write_Text@cnt cnt `uc  1 a 1 62 ]
+"908
+[v OLED_Write_Text@x x `s  1 p 2 49 ]
+[v OLED_Write_Text@y y `s  1 p 2 51 ]
+[v OLED_Write_Text@text text `*.25uc  1 p 2 53 ]
+"921
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.25DCuc  1 a 2 3 ]
+"5
+[v strlen@s s `*.25DCuc  1 p 2 0 ]
+"12
+} 0
+"825 D:\study\PIC16f18877\picI2C_OLED.X\OLED.c
+[v _OLED_Write OLED_Write `(v  1 e 1 0 ]
+{
+"829
+[v OLED_Write@cnt cnt `us  1 a 2 46 ]
+"828
+[v OLED_Write@rowcnt rowcnt `us  1 a 2 44 ]
+"833
+[v OLED_Write@cy cy `s  1 a 2 42 ]
+[v OLED_Write@cx cx `s  1 a 2 40 ]
+"827
+[v OLED_Write@font_idx font_idx `us  1 a 2 38 ]
+"834
+[v OLED_Write@cbit cbit `s  1 a 2 36 ]
+"833
+[v OLED_Write@cbyte cbyte `s  1 a 2 32 ]
+"831
+[v OLED_Write@temp temp `us  1 a 2 30 ]
+"830
+[v OLED_Write@b b `uc  1 a 1 48 ]
+"825
+[v OLED_Write@x x `s  1 p 2 17 ]
+[v OLED_Write@y y `s  1 p 2 19 ]
+[v OLED_Write@value value `uc  1 p 1 21 ]
+"897
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"312 D:\study\PIC16f18877\picI2C_OLED.X\main.c
+[v _test_images test_images `(v  1 e 1 0 ]
+{
+"330
+} 0
+"516 D:\study\PIC16f18877\picI2C_OLED.X\OLED.c
+[v _OLED_InvertDisplay OLED_InvertDisplay `(v  1 e 1 0 ]
+{
+[v OLED_InvertDisplay@value value `uc  1 a 1 wreg ]
+[v OLED_InvertDisplay@value value `uc  1 a 1 wreg ]
+"518
+[v OLED_InvertDisplay@value value `uc  1 a 1 2 ]
+"526
+} 0
+"759
+[v _OLED_Image OLED_Image `(v  1 e 1 0 ]
+{
+"761
+[v OLED_Image@i i `us  1 a 2 7 ]
+"759
+[v OLED_Image@image image `*.25DCuc  1 p 2 0 ]
+"766
+} 0
+"226 D:\study\PIC16f18877\picI2C_OLED.X\main.c
+[v _test_draw_v_h_lines test_draw_v_h_lines `(v  1 e 1 0 ]
+{
+"228
+[v test_draw_v_h_lines@i i `uc  1 a 1 26 ]
+"244
+} 0
+"250
+[v _test_draw_rectangles test_draw_rectangles `(v  1 e 1 0 ]
+{
+"252
+[v test_draw_rectangles@i i `uc  1 a 1 45 ]
+"266
+} 0
+"698 D:\study\PIC16f18877\picI2C_OLED.X\OLED.c
+[v _OLED_Rectangle OLED_Rectangle `(v  1 e 1 0 ]
+{
+[v OLED_Rectangle@x1 x1 `s  1 p 2 24 ]
+[v OLED_Rectangle@y1 y1 `s  1 p 2 26 ]
+[v OLED_Rectangle@x2 x2 `s  1 p 2 28 ]
+[v OLED_Rectangle@y2 y2 `s  1 p 2 30 ]
+[v OLED_Rectangle@color color `uc  1 p 1 32 ]
+"708
+} 0
+"638
+[v _OLED_V_Line OLED_V_Line `(v  1 e 1 0 ]
+{
+"640
+[v OLED_V_Line@temp temp `s  1 a 2 12 ]
+"638
+[v OLED_V_Line@y_start y_start `s  1 p 2 17 ]
+[v OLED_V_Line@y_end y_end `s  1 p 2 19 ]
+[v OLED_V_Line@x_pos x_pos `s  1 p 2 21 ]
+[v OLED_V_Line@color color `uc  1 p 1 23 ]
+"653
+} 0
+"666
+[v _OLED_H_Line OLED_H_Line `(v  1 e 1 0 ]
+{
+"668
+[v OLED_H_Line@temp temp `s  1 a 2 12 ]
+"666
+[v OLED_H_Line@x_start x_start `s  1 p 2 17 ]
+[v OLED_H_Line@x_end x_end `s  1 p 2 19 ]
+[v OLED_H_Line@y_pos y_pos `s  1 p 2 21 ]
+[v OLED_H_Line@color color `uc  1 p 1 23 ]
+"681
+} 0
+"495
+[v _OLED_ClearDisplay OLED_ClearDisplay `(v  1 e 1 0 ]
+{
+"498
+} 0
+"207 D:\study\PIC16f18877\picI2C_OLED.X\main.c
+[v _test_draw_lines test_draw_lines `(v  1 e 1 0 ]
+{
+"209
+[v test_draw_lines@i i `uc  1 a 1 13 ]
+"220
+} 0
+"564 D:\study\PIC16f18877\picI2C_OLED.X\OLED.c
+[v _OLED_Line OLED_Line `(v  1 e 1 0 ]
+{
+"567
+[v OLED_Line@P P `l  1 a 4 42 ]
+"566
+[v OLED_Line@dy dy `s  1 a 2 52 ]
+[v OLED_Line@dx dx `s  1 a 2 50 ]
+[v OLED_Line@addy addy `s  1 a 2 48 ]
+[v OLED_Line@addx addx `s  1 a 2 46 ]
+"568
+[v OLED_Line@i i `s  1 a 2 40 ]
+"566
+[v OLED_Line@y y `s  1 a 2 38 ]
+[v OLED_Line@x x `s  1 a 2 36 ]
+"564
+[v OLED_Line@x_start x_start `s  1 p 2 17 ]
+[v OLED_Line@y_start y_start `s  1 p 2 19 ]
+[v OLED_Line@x_end x_end `s  1 p 2 21 ]
+[v OLED_Line@y_end y_end `s  1 p 2 23 ]
+[v OLED_Line@color color `uc  1 p 1 25 ]
+"624
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 0 ]
+"4
+} 0
+"272 D:\study\PIC16f18877\picI2C_OLED.X\main.c
+[v _test_draw_circles test_draw_circles `(v  1 e 1 0 ]
+{
+"274
+[v test_draw_circles@i i `uc  1 a 1 40 ]
+"280
+} 0
+"389 D:\study\PIC16f18877\picI2C_OLED.X\OLED.c
+[v _OLED_Width OLED_Width `(uc  1 e 1 0 ]
+{
+"392
+} 0
+"442
+[v _OLED_Update OLED_Update `(v  1 e 1 0 ]
+{
+"444
+[v OLED_Update@i i `us  1 a 2 5 ]
+"445
+[v OLED_Update@x x `uc  1 a 1 4 ]
+"476
+} 0
+"400
+[v _OLED_Height OLED_Height `(uc  1 e 1 0 ]
+{
+"403
+} 0
+"780
+[v _OLED_Circle OLED_Circle `(v  1 e 1 0 ]
+{
+"786
+[v OLED_Circle@y y `s  1 a 2 32 ]
+"785
+[v OLED_Circle@x x `s  1 a 2 30 ]
+"782
+[v OLED_Circle@f f `s  1 a 2 28 ]
+"784
+[v OLED_Circle@ddF_y ddF_y `s  1 a 2 26 ]
+"783
+[v OLED_Circle@ddF_x ddF_x `s  1 a 2 24 ]
+"780
+[v OLED_Circle@x0 x0 `s  1 p 2 17 ]
+[v OLED_Circle@y0 y0 `s  1 p 2 19 ]
+[v OLED_Circle@r r `s  1 p 2 21 ]
+[v OLED_Circle@color color `uc  1 p 1 23 ]
+"814
+} 0
+"536
+[v _OLED_DrawPixel OLED_DrawPixel `(v  1 e 1 0 ]
+{
+[v OLED_DrawPixel@x x `s  1 p 2 4 ]
+[v OLED_DrawPixel@y y `s  1 p 2 6 ]
+[v OLED_DrawPixel@color color `uc  1 p 1 8 ]
+"547
+} 0
+"958
+[v _width width `(uc  1 s 1 width ]
+{
+"961
+} 0
+"968
+[v _height height `(uc  1 s 1 height ]
+{
+"971
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 2 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 1 ]
+[v ___awdiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 6 ]
+[v ___awdiv@dividend dividend `i  1 p 2 8 ]
+"41
+} 0
+"7 D:\study\PIC16f18877\picI2C_OLED.X\i2c_2.c
+[v _setup setup `(v  1 e 1 0 ]
+{
+"26
+} 0
+"28
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+{
+[v I2C_Master_Init@c c `DCul  1 p 4 0 ]
+"39
+} 0
+"332 D:\study\PIC16f18877\picI2C_OLED.X\OLED.c
+[v _OLED_Init OLED_Init `(v  1 e 1 0 ]
+{
+"381
+} 0
+"928
+[v _ssd1306_command ssd1306_command `(v  1 s 1 ssd1306_command ]
+{
+[v ssd1306_command@command command `uc  1 a 1 wreg ]
+[v ssd1306_command@command command `uc  1 a 1 wreg ]
+[v ssd1306_command@command command `uc  1 a 1 1 ]
+"936
+} 0
+"55 D:\study\PIC16f18877\picI2C_OLED.X\i2c_2.c
+[v _I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+{
+[v I2C_Master_Write@d d `uc  1 a 1 wreg ]
+[v I2C_Master_Write@d d `uc  1 a 1 wreg ]
+[v I2C_Master_Write@d d `uc  1 a 1 0 ]
+"58
+} 0
+"46
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+{
+"49
+} 0
+"41
+[v _I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+{
+"44
+} 0
+"51
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+{
+"53
+} 0
+"410 D:\study\PIC16f18877\picI2C_OLED.X\OLED.c
+[v _OLED_SetFont OLED_SetFont `(v  1 e 1 0 ]
+{
+[v OLED_SetFont@font font `*.25DCuc  1 p 2 0 ]
+"418
+} 0
+"505
+[v _OLED_FillDisplay OLED_FillDisplay `(v  1 e 1 0 ]
+{
+"508
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+{
+"5
+[v memset@p p `*.39uc  1 a 2 6 ]
+"3
+[v memset@dest dest `*.39v  1 p 2 0 ]
+[v memset@c c `i  1 p 2 2 ]
+[v memset@n n `ui  1 p 2 4 ]
+"10
+} 0
